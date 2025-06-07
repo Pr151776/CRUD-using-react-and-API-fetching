@@ -32,7 +32,6 @@ const Home = () => {
 
         if (editId) {
             // console.log(editId);
-            
             const updatedData = datas.map( (data) => data.id === editId ? {...data, title, body} : data);
 
             setDatas(updatedData);
@@ -59,12 +58,11 @@ const Home = () => {
 
     // Edit data
     const handleEdit = (id) => {
-        setEdit(true);
-
         const editData =  datas.find(data =>  data.id === id)
+        setEdit(true);
+        setEditId(editData.id);
         setTitle(editData.title);
         setBody(editData.body);
-        setEditId(editData.id);
         // console.log(editData);
     };
 
