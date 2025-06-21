@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "6",
+      "name": "Subbu lakshmi",
+      "age": "47",
+      "city": "Madurai"
+    },
+    {
+      "id": "2",
+      "name": "Prakash",
+      "age": "28",
+      "city": "Madurai"
+    },
+    {
+      "id": "1",
+      "name": "Anna lakshmi",
+      "age": "23",
+      "city": "Madurai"
+    },
+    {
+      "id": 4,
+      "name": "Gopal",
+      "age": "12",
+      "city": "CBE"
+    }
+  ]
+}
